@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Int {
+public extension Int {
     // 1000 -> 1,000
     func convertCommaString() -> String? {
         let formatter = NumberFormatter()
@@ -17,8 +17,7 @@ extension Int {
     }
 }
 
-@available(iOS 11.0, *)
-extension UIView {
+public extension UIView {
     func setCardEffectWithView(_ view: UIView,
                                radius: CGFloat = 5,
                                corners: CACornerMask? = [.layerMaxXMinYCorner, .layerMinXMinYCorner, .layerMaxXMaxYCorner, .layerMinXMaxYCorner]) {
