@@ -17,6 +17,7 @@ extension Int {
     }
 }
 
+@available(iOS 11.0, *)
 extension UIView {
     func setCardEffectWithView(_ view: UIView,
                                radius: CGFloat = 5,

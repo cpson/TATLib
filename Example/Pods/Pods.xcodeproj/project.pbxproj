@@ -8,25 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5B65E0D4980E0EA87D07452B5B3DF952 /* TATLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FEE773B1DFB134B6BA365495606810 /* TATLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63346029F31E304FC9392A660149D6C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		697376D22CEBD4E9CF78C9503A960F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		728020CCCC951C1E1CBAA8FB19A06249 /* TATLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 358585561D4EEFC86E9989150AF89E9B /* TATLib-dummy.m */; };
 		7CB984542499BBC100385730 /* TATLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB984532499BBC100385730 /* TATLib.swift */; };
 		7CB984562499E40300385730 /* TATExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB984552499E40300385730 /* TATExtensions.swift */; };
 		7CB984582499E9DA00385730 /* TATFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB984572499E9DA00385730 /* TATFontExtension.swift */; };
-		80BB377D099CDB78DBF17F6BFE4BDFA4 /* Pods-TATLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4016B97E8D1B3AB743DE9C7A6F6086 /* Pods-TATLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3523D3F3C2FE554DB57D42AB5D503B1 /* Pods-TATLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5133E6D7F3FBF1845B14C00263A0C7FB /* Pods-TATLib_Tests-dummy.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1C0B305CC37AC63CCE2F22EF32E6111C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 009FF66FA1DE20BD2F5833E97920F96D;
-			remoteInfo = TATLib;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		010E91ABE266AC0DF28505DA7C870091 /* Pods-TATLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TATLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -49,7 +36,6 @@
 		9B4016B97E8D1B3AB743DE9C7A6F6086 /* Pods-TATLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TATLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE7E059CB7E3A92F041F7B301C9C5B42 /* Pods-TATLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TATLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		CA834F7E730CC3DAEF3E548F515AEF18 /* Pods_TATLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TATLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D2253165B41ADCA58BB9C82488BE1D /* Pods-TATLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TATLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E0FFC9E916A23C106C0B48B265406053 /* TATLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TATLib.debug.xcconfig; sourceTree = "<group>"; };
 		E7733EE86EEDFDF001E67B94295026FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -58,14 +44,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9762F7547DCB5DD5AE680237918F7404 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63346029F31E304FC9392A660149D6C6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F73D3C9F019FB7485B1C6D1B8FD55875 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,7 +156,6 @@
 		DBC1E27C98AD153CC09E335B7756C6F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA834F7E730CC3DAEF3E548F515AEF18 /* Pods_TATLib_Tests.framework */,
 				5CD1121DC0AFD455FE2251D449731363 /* TATLib.framework */,
 			);
 			name = Products;
@@ -192,14 +169,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B65E0D4980E0EA87D07452B5B3DF952 /* TATLib-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F4D08E1E46D9DAF855007EB91F956AF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80BB377D099CDB78DBF17F6BFE4BDFA4 /* Pods-TATLib_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,25 +193,6 @@
 			productReference = 5CD1121DC0AFD455FE2251D449731363 /* TATLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		804E28E4E98C73F0D3222785A8824909 /* Pods-TATLib_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CCF61CA5A994CB5A9742C7C671415451 /* Build configuration list for PBXNativeTarget "Pods-TATLib_Tests" */;
-			buildPhases = (
-				9F4D08E1E46D9DAF855007EB91F956AF /* Headers */,
-				2C99CB135DAF5BB2D3F812C0481D030A /* Sources */,
-				9762F7547DCB5DD5AE680237918F7404 /* Frameworks */,
-				D4185F6F8C8825E89D8D03A807AF797B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D811D8F03B20F046474F1AF1039FCB44 /* PBXTargetDependency */,
-			);
-			name = "Pods-TATLib_Tests";
-			productName = "Pods-TATLib_Tests";
-			productReference = CA834F7E730CC3DAEF3E548F515AEF18 /* Pods_TATLib_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -265,7 +215,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				804E28E4E98C73F0D3222785A8824909 /* Pods-TATLib_Tests */,
 				009FF66FA1DE20BD2F5833E97920F96D /* TATLib */,
 			);
 		};
@@ -273,13 +222,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		6A78553478804E39CBE6189A094A1920 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4185F6F8C8825E89D8D03A807AF797B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,24 +242,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C99CB135DAF5BB2D3F812C0481D030A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3523D3F3C2FE554DB57D42AB5D503B1 /* Pods-TATLib_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D811D8F03B20F046474F1AF1039FCB44 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TATLib;
-			target = 009FF66FA1DE20BD2F5833E97920F96D /* TATLib */;
-			targetProxy = 1C0B305CC37AC63CCE2F22EF32E6111C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		32904223A297BB9A97A45D9841134B87 /* Debug */ = {
@@ -345,73 +270,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		36098EACD9B6700BDD5F95581F1C9BEF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8D2253165B41ADCA58BB9C82488BE1D /* Pods-TATLib_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TATLib_Tests/Pods-TATLib_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TATLib_Tests/Pods-TATLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		765B973D597F80752AAF0B2ED7F3F5E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA13A4F28EFB71A14C935CCB6AE2D5B7 /* Pods-TATLib_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TATLib_Tests/Pods-TATLib_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TATLib_Tests/Pods-TATLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -590,15 +448,6 @@
 			buildConfigurations = (
 				32904223A297BB9A97A45D9841134B87 /* Debug */,
 				96381D7F524B831D2476EB9A66ADDEE7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CCF61CA5A994CB5A9742C7C671415451 /* Build configuration list for PBXNativeTarget "Pods-TATLib_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				765B973D597F80752AAF0B2ED7F3F5E6 /* Debug */,
-				36098EACD9B6700BDD5F95581F1C9BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "TATLib",
             dependencies: []),
-        .testTarget(
-            name: "TATLibTests",
-            dependencies: ["TATLib"]),
     ]
 )
