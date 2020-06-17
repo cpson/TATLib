@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TATLib'
   s.version          = '0.1.0'
-  s.swift_version    = '4.2'
+  s.swift_version    = '5.0'
   s.summary          = 'TAT Library'
   s.description      = 'This is an assortment of miscellaneous tips'
   s.homepage         = 'https://github.com/cbson/TATLib'
