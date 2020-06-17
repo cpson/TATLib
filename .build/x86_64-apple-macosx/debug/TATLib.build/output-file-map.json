@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/master.swiftdeps"
+  },
+  "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Sources/TATLib/TATLib.swift": {
+    "dependencies": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/TATLib.d",
+    "object": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/TATLib.swift.o",
+    "swiftmodule": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/TATLib~partial.swiftmodule",
+    "swift-dependencies": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/TATLib.swiftdeps"
+  }
+}

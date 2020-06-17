@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "e5a2de3fb7806eae923aa778bdcc06bb"
+build_time: [1592374614, 719459000]
+inputs:
+  "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Sources/TATLib/TATLib.swift": [1592374534, 945278254]

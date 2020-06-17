@@ -1,0 +1,78 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "TATLib-debug.module": ["<TATLib-debug.module>"]
+  "TATLibPackageTests-debug.test": ["<TATLibPackageTests-debug.test>"]
+  "TATLibTests-debug.module": ["<TATLibTests-debug.module>"]
+  "main": ["<TATLib-debug.module>"]
+  "test": ["<TATLib-debug.module>","<TATLibPackageTests-debug.test>","<TATLibTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Sources/TATLib/":
+    is-directory-structure: true
+  "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Tests/TATLibTests/":
+    is-directory-structure: true
+commands:
+  "<TATLib-debug.module>":
+    tool: phony
+    inputs: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/TATLib.swift.o","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.swiftmodule"]
+    outputs: ["<TATLib-debug.module>"]
+
+  "<TATLibPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibPackageTests.xctest/Contents/MacOS/TATLibPackageTests"]
+    outputs: ["<TATLibPackageTests-debug.test>"]
+
+  "<TATLibTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/TATLibTests.swift.o","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/XCTestManifests.swift.o","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.swiftmodule"]
+    outputs: ["<TATLibTests-debug.module>"]
+
+  "C.TATLib-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Sources/TATLib/TATLib.swift"]
+    outputs: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/TATLib.swift.o","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "TATLib"
+    module-output-path: "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.swiftmodule"
+    import-paths: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build"
+    objects: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/TATLib.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-emit-objc-header","-emit-objc-header-path","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/TATLib-Swift.h","-color-diagnostics"]
+    sources: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Sources/TATLib/TATLib.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "C.TATLibPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/TATLib.swift.o","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/TATLibTests.swift.o","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibPackageTests.xctest/Contents/MacOS/TATLibPackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/TATLibPackageTests.xctest/Contents/MacOS/TATLibPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug","-o","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibPackageTests.xctest/Contents/MacOS/TATLibPackageTests","-module-name","TATLibPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.10","-Xlinker","-add_ast_path","-Xlinker","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.TATLibTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Tests/TATLibTests/TATLibTests.swift","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Tests/TATLibTests/XCTestManifests.swift","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.swiftmodule"]
+    outputs: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/TATLibTests.swift.o","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/XCTestManifests.swift.o","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "TATLibTests"
+    module-output-path: "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.swiftmodule"
+    import-paths: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build"
+    objects: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/TATLibTests.swift.o","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Tests/TATLibTests/TATLibTests.swift","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Tests/TATLibTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Sources/TATLib/","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Tests/TATLibTests/","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Package.swift","/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

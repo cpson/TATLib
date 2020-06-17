@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "af0ade7d1aa60ec31aaa3724ad808027"
+build_time: [1592374640, 297508000]
+inputs:
+  "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Tests/TATLibTests/TATLibTests.swift": [1592374534, 946125562]
+  "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Tests/TATLibTests/XCTestManifests.swift": [1592374534, 946451824]

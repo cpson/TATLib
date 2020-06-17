@@ -1,0 +1,4 @@
+module TATLib {
+    header "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/TATLib-Swift.h"
+    requires objc
+}

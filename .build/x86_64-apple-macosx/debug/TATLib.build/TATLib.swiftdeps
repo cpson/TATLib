@@ -1,0 +1,20 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TATLib"
+provides-nominal:
+- "6TATLibAAV"
+provides-member:
+- ["6TATLibAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "StringLiteralType"
+- "TATLib"
+depends-member:
+- ["6TATLibAAV", "init"]
+- ["6TATLibAAV", "text"]
+depends-nominal:
+- "6TATLibAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLib.build/module.modulemap"
+interface-hash: "edf5ba24510855a2040f1c10d033c63f"

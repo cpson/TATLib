@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/master.swiftdeps"
+  },
+  "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Tests/TATLibTests/TATLibTests.swift": {
+    "dependencies": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/TATLibTests.d",
+    "object": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/TATLibTests.swift.o",
+    "swiftmodule": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/TATLibTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/TATLibTests.swiftdeps"
+  },
+  "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/Tests/TATLibTests/XCTestManifests.swift": {
+    "dependencies": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/XCTestManifests.d",
+    "object": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/cpson/Desktop/MTCOM/WorkSpace/iPhone/TATLib/TATLib/.build/x86_64-apple-macosx/debug/TATLibTests.build/XCTestManifests.swiftdeps"
+  }
+}
