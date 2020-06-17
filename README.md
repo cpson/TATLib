@@ -22,7 +22,7 @@ pod 'TATLib'
 
 ## Author
 
-cbson, cbson@mtcom.co.kr
+cpson, cpsony2k@gmail.com
 
 ## License
 
