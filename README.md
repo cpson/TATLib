@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod 'TATLib'
 ```
 
+```Swift Package
+'https://github.com/cpson/TATLib.git'
+```
+
 ## Author
 
 cpson, cpsony2k@gmail.com
