@@ -132,6 +132,7 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = GQL4TA2C87;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -324,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 947A6DC19873E585CC1081D4 /* Pods-TATLib_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GQL4TA2C87;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -346,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D89DC70C8EBFBDBE2333DF06 /* Pods-TATLib_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GQL4TA2C87;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

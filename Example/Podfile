@@ -1,5 +1,5 @@
 use_frameworks!
-target 'TATLib_Tests' do
+target 'TATLib' do
   pod 'TATLib', :path => '../'
   
   

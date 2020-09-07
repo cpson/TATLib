@@ -10,9 +10,9 @@
 		5B65E0D4980E0EA87D07452B5B3DF952 /* TATLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FEE773B1DFB134B6BA365495606810 /* TATLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		697376D22CEBD4E9CF78C9503A960F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		728020CCCC951C1E1CBAA8FB19A06249 /* TATLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 358585561D4EEFC86E9989150AF89E9B /* TATLib-dummy.m */; };
-		7CB984542499BBC100385730 /* TATLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB984532499BBC100385730 /* TATLib.swift */; };
-		7CB984562499E40300385730 /* TATExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB984552499E40300385730 /* TATExtensions.swift */; };
-		7CB984582499E9DA00385730 /* TATFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB984572499E9DA00385730 /* TATFontExtension.swift */; };
+		7C6B656A249C54F900770DBD /* TATLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B6567249C54F900770DBD /* TATLib.swift */; };
+		7C6B656B249C54F900770DBD /* TATExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B6568249C54F900770DBD /* TATExtensions.swift */; };
+		7C6B656C249C54F900770DBD /* TATFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B6569249C54F900770DBD /* TATFontExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +27,12 @@
 		55102478BA8406DD76508015351B90D5 /* Pods-TATLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TATLib_Tests.modulemap"; sourceTree = "<group>"; };
 		5CD1121DC0AFD455FE2251D449731363 /* TATLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TATLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64509334B9683D47063666FCC336CBEB /* Pods-TATLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TATLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7CB984532499BBC100385730 /* TATLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TATLib.swift; path = TATLib/Classes/TATLib.swift; sourceTree = "<group>"; };
-		7CB984552499E40300385730 /* TATExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TATExtensions.swift; path = TATLib/Classes/TATExtensions.swift; sourceTree = "<group>"; };
-		7CB984572499E9DA00385730 /* TATFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TATFontExtension.swift; path = TATLib/Classes/TATFontExtension.swift; sourceTree = "<group>"; };
+		7C6B6567249C54F900770DBD /* TATLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TATLib.swift; path = Sources/TATLib/Classes/TATLib.swift; sourceTree = "<group>"; };
+		7C6B6568249C54F900770DBD /* TATExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TATExtensions.swift; path = Sources/TATLib/Classes/TATExtensions.swift; sourceTree = "<group>"; };
+		7C6B6569249C54F900770DBD /* TATFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TATFontExtension.swift; path = Sources/TATLib/Classes/TATFontExtension.swift; sourceTree = "<group>"; };
 		81FEE773B1DFB134B6BA365495606810 /* TATLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TATLib-umbrella.h"; sourceTree = "<group>"; };
 		87E970538DA52D3E7C8A1A54F43283BC /* TATLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TATLib-prefix.pch"; sourceTree = "<group>"; };
-		9A9D828D36657A8AB86C8A6276571ACC /* TATLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TATLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A9D828D36657A8AB86C8A6276571ACC /* TATLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TATLib.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		9B4016B97E8D1B3AB743DE9C7A6F6086 /* Pods-TATLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TATLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE7E059CB7E3A92F041F7B301C9C5B42 /* Pods-TATLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TATLib_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -68,9 +68,9 @@
 		16FBA0B177DC6A14D138A21C604F0B28 /* TATLib */ = {
 			isa = PBXGroup;
 			children = (
-				7CB984552499E40300385730 /* TATExtensions.swift */,
-				7CB984572499E9DA00385730 /* TATFontExtension.swift */,
-				7CB984532499BBC100385730 /* TATLib.swift */,
+				7C6B6568249C54F900770DBD /* TATExtensions.swift */,
+				7C6B6569249C54F900770DBD /* TATFontExtension.swift */,
+				7C6B6567249C54F900770DBD /* TATLib.swift */,
 				16316D72875148D26A728E2D15F39977 /* Pod */,
 				3EBADE9689848C16BD94BCD664B2276B /* Support Files */,
 			);
@@ -201,6 +201,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					009FF66FA1DE20BD2F5833E97920F96D = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -235,10 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CB984542499BBC100385730 /* TATLib.swift in Sources */,
 				728020CCCC951C1E1CBAA8FB19A06249 /* TATLib-dummy.m in Sources */,
-				7CB984582499E9DA00385730 /* TATFontExtension.swift in Sources */,
-				7CB984562499E40300385730 /* TATExtensions.swift in Sources */,
+				7C6B656C249C54F900770DBD /* TATFontExtension.swift in Sources */,
+				7C6B656A249C54F900770DBD /* TATLib.swift in Sources */,
+				7C6B656B249C54F900770DBD /* TATExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0FFC9E916A23C106C0B48B265406053 /* TATLib.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -269,6 +275,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -280,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4852E68C4064A1F596675FD03307A47E /* TATLib.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

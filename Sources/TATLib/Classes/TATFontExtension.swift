@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum FontFamily: String {
+public enum FontFamily: String {
     case AppleSDGothicNeoThin = "AppleSDGothicNeo-Thin"
     case AppleSDGothicNeoLight = "AppleSDGothicNeo-Light"
     case AppleSDGothicNeoRegular = "AppleSDGothicNeo-Regular"
@@ -17,7 +17,7 @@ enum FontFamily: String {
     case AppleSDGothicNeoMedium = "AppleSDGothicNeo-Medium"
 }
 
-extension UIFont {
+public extension UIFont {
     static func getFont(_ familyName: FontFamily,_ size: CGFloat) -> UIFont {
         return UIFont(name: familyName.rawValue, size: size) ?? UIFont.systemFont(ofSize: size)
     }
@@ -70,6 +70,6 @@ extension UIFont {
     }
 }
 
-extension UIFontDescriptor.AttributeName {
+public extension UIFontDescriptor.AttributeName {
     static let nsctFontUIUsage = UIFontDescriptor.AttributeName(rawValue: "NSCTFontUIUsageAttribute")
 }

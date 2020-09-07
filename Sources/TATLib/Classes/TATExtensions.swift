@@ -74,7 +74,7 @@ public extension UIView {
     }
 }
 
-extension UIViewController {
+public extension UIViewController {
     /**
      get Top View Controller
      */
@@ -92,7 +92,7 @@ extension UIViewController {
     }
 }
 
-extension Date {
+public extension Date {
     var millisecondsSince1970:Int64 {
         return Int64((self.timeIntervalSince1970 * 1000.0).rounded())
     }
@@ -106,7 +106,7 @@ extension Date {
     }
 }
 
-extension String {
+public extension String {
     func removeDash() -> String {
         return self.replacingOccurrences(of: "-", with: "")
     }
@@ -180,7 +180,7 @@ extension String {
     }
 }
 
-extension UITextField {
+public extension UITextField {
     func setPhoneNumberStyle(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if let oldText = textField.text?.removeDash(), oldText.count > 10 && string != "" {
             textField.text = oldText.formattedNumber()
@@ -250,7 +250,7 @@ extension UITextField {
     }
 }
 
-extension UIDevice {
+public extension UIDevice {
     var identifierUUID: String? {
         get { return UIDevice.current.identifierForVendor?.uuidString}
     }
