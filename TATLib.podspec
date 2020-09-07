@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TATLib'
-  s.version          = '1.2'
+  s.version          = '1.3'
   s.swift_version    = '5.0'
   s.summary          = 'TAT Library'
   s.description      = 'This is an assortment of miscellaneous tips'
